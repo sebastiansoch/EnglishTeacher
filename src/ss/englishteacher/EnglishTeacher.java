@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package englishteacher;
+package ss.englishteacher;
+
+import ui.JWordFrame;
 
 /**
  *
@@ -15,7 +17,10 @@ public class EnglishTeacher {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        JWordFrame jWordFrame = new JWordFrame();
+        jWordFrame.setVisible(true);
     }
     
 }
